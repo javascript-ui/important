@@ -26,7 +26,7 @@ loadCSS('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.
 // Example: Load JS from CDN, with jQuery first and then Bootstrap
 loadScript('https://code.jquery.com/jquery-3.6.0.min.js', function() {
     console.log('jQuery loaded!');
-
+});
     // Load Bootstrap JS after jQuery has loaded
     loadScript('assets/vendor/bootstrap/js/bootstrap.bundle.min.js', function() {
         console.log('Bootstrap JS loaded!');
@@ -64,5 +64,4 @@ loadScript('https://code.jquery.com/jquery-3.6.0.min.js', function() {
     });
 
 
-    
-});
+
