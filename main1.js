@@ -59,9 +59,25 @@ loadScript('https://code.jquery.com/jquery-3.6.0.min.js', function() {
     loadScript('assets/vendor/isotope-layout/isotope.pkgd.min.js', function() {
         console.log('Bootstrap JS loaded!');
     });
+    loadScript('https://raw.githack.com/jcmoralba/important_jc/main/main.js', function() {
+        console.log('Bootstrap JS loaded!');
+    });
     // main js file
     loadScript('assets/js/main.js', function() {      
     });
 
+
+
+    var internet = (window.navigator.onLine ? 'on' : 'off') + 'line';
+    console.log(internet);
+
+    if (internet == "offline") {
+        const innertextexample = 
+        document.querySelector("body");
+        innertextexample.innerHTML  = 
+        "Error";
+        loadScript('assets/js/main.js', function() {      
+        });
+    }
 
 
