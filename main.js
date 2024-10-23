@@ -1,1 +1,109 @@
-var _0x2d13c8=_0x5d30;(function(_0x250128,_0x14c25a){var _0x5df5f3=_0x5d30,_0x1f105a=_0x250128();while(!![]){try{var _0x254138=-parseInt(_0x5df5f3(0x89))/0x1*(-parseInt(_0x5df5f3(0x9e))/0x2)+-parseInt(_0x5df5f3(0x87))/0x3*(parseInt(_0x5df5f3(0x7e))/0x4)+-parseInt(_0x5df5f3(0xa0))/0x5+-parseInt(_0x5df5f3(0x77))/0x6*(-parseInt(_0x5df5f3(0x9d))/0x7)+parseInt(_0x5df5f3(0x97))/0x8+-parseInt(_0x5df5f3(0x94))/0x9*(-parseInt(_0x5df5f3(0x8b))/0xa)+-parseInt(_0x5df5f3(0x82))/0xb*(parseInt(_0x5df5f3(0x9f))/0xc);if(_0x254138===_0x14c25a)break;else _0x1f105a['push'](_0x1f105a['shift']());}catch(_0x33f1a8){_0x1f105a['push'](_0x1f105a['shift']());}}}(_0x4bd8,0x5ff82));function _0x5d30(_0x22035c,_0x3b284a){var _0x4bd80b=_0x4bd8();return _0x5d30=function(_0x5d30ee,_0x4e6ba4){_0x5d30ee=_0x5d30ee-0x77;var _0x14defe=_0x4bd80b[_0x5d30ee];return _0x14defe;},_0x5d30(_0x22035c,_0x3b284a);}function loadScript(_0x350bf8,_0x21dd01){var _0x1e61d6=_0x5d30,_0x1cb8dd=document[_0x1e61d6(0x9a)](_0x1e61d6(0x93));_0x1cb8dd[_0x1e61d6(0x88)]=_0x350bf8,_0x1cb8dd[_0x1e61d6(0x98)]=_0x1e61d6(0x86),_0x1cb8dd[_0x1e61d6(0x80)]=_0x21dd01,document[_0x1e61d6(0x7a)]['appendChild'](_0x1cb8dd);}function loadCSS(_0x579660){var _0x1a5016=_0x5d30,_0x336027=document[_0x1a5016(0x9a)](_0x1a5016(0x7b));_0x336027[_0x1a5016(0x91)]=_0x579660,_0x336027[_0x1a5016(0xa1)]='stylesheet',document[_0x1a5016(0x7a)][_0x1a5016(0x7d)](_0x336027);}try{loadCSS('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'),loadCSS(_0x2d13c8(0x79)),loadScript(_0x2d13c8(0x96),function(){}),loadScript(_0x2d13c8(0x8d),function(){}),loadScript(_0x2d13c8(0x78),function(){}),loadScript(_0x2d13c8(0x8c),function(){}),loadScript(_0x2d13c8(0x90),function(){}),loadScript('assets/vendor/purecounter/purecounter_vanilla.js',function(){}),loadScript(_0x2d13c8(0x8a),function(){}),loadScript(_0x2d13c8(0x9c),function(){}),loadScript('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js',function(){}),loadScript(_0x2d13c8(0x83),function(){}),loadScript(_0x2d13c8(0x7f),function(){}),loadScript('assets/js/main.js',function(){});var internet=(window['navigator'][_0x2d13c8(0x95)]?'on':_0x2d13c8(0x8e))+_0x2d13c8(0x81);console['log'](internet);if(internet==_0x2d13c8(0x8f)){const innertextexample=document[_0x2d13c8(0x99)](_0x2d13c8(0x85));innertextexample[_0x2d13c8(0x7c)]=_0x2d13c8(0x9b),loadScript(_0x2d13c8(0x92),function(){});}}catch(_0x536166){console[_0x2d13c8(0x84)]('have\x20some\x20error');}function _0x4bd8(){var _0x37a69a=['2WXhAUW','36meuhwU','856495ELHdAU','rel','210426gdrAeI','assets/vendor/php-email-form/validate.js','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css','head','link','innerHTML','appendChild','8jGSRNo','https://raw.githack.com/jcmoralba/important_jc/main/main.js','onload','line','1483559DgOeMv','assets/vendor/isotope-layout/isotope.pkgd.min.js','log','body','text/javascript','567081upydku','src','295294PkHiCE','assets/vendor/waypoints/noframework.waypoints.js','401670vdFUxZ','assets/vendor/aos/aos.js','assets/vendor/bootstrap/js/bootstrap.bundle.min.js','off','offline','assets/vendor/swiper/swiper-bundle.min.js','href','assets/js/main.js','script','54TBZlVl','onLine','https://code.jquery.com/jquery-3.6.0.min.js','3680352OWUcad','type','querySelector','createElement','Error','assets/vendor/glightbox/js/glightbox.min.js','70eIQQMx'];_0x4bd8=function(){return _0x37a69a;};return _0x4bd8();}
+// Function to load a script file
+function loadScript(url, callback) {
+    var script = document.createElement('script');
+    script.src = url;
+    script.type = 'text/javascript';
+    script.onload = callback;
+    document.head.appendChild(script);
+}
+
+// Function to load a CSS file
+function loadCSS(url) {
+    var link = document.createElement('link');
+    link.href = url;
+    link.rel = 'stylesheet';
+    document.head.appendChild(link);
+}
+
+function loadCSS_bootstrap(url) {
+    var link = document.createElement('link');
+    link.href = url;
+    link.rel = 'stylesheet';
+    integrity = 'sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65';
+    crossorigin='anonymous';
+    document.head.appendChild(link);
+}
+
+try
+ //try start
+
+{
+
+loadCSS('assets/vendor/bootstrap/css/bootstrap.min.css');
+// Example: Load CSS from CDN
+loadCSS('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+
+    // Example: Load JS from CDN, with jQuery first and then Bootstrap
+loadScript('https://code.jquery.com/jquery-3.6.0.min.js', function() {
+   
+});
+    // Load Bootstrap JS after jQuery has loaded
+    loadScript('assets/vendor/bootstrap/js/bootstrap.bundle.min.js', function() {
+       
+    });
+    //<!-- Vendor JS Files -->
+    loadScript('assets/vendor/php-email-form/validate.js', function() {
+       
+    });
+
+    loadScript('assets/vendor/aos/aos.js', function() {
+       
+    });
+
+    loadScript('assets/vendor/swiper/swiper-bundle.min.js', function() {
+       
+    });
+
+    loadScript('assets/vendor/purecounter/purecounter_vanilla.js', function() {
+       
+    });
+    loadScript('assets/vendor/waypoints/noframework.waypoints.js', function() {
+        
+    });
+    loadScript('assets/vendor/glightbox/js/glightbox.min.js', function() {
+        
+    });
+    loadScript('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js', function() {
+       
+    });
+    loadScript('assets/vendor/isotope-layout/isotope.pkgd.min.js', function() {
+       
+    });
+    loadScript('https://raw.githack.com/jcmoralba/important_jc/main/main.js', function() {
+        
+    });
+    // main js file
+    loadScript('assets/js/main.js', function() {      
+    });
+
+
+
+    var internet = (window.navigator.onLine ? 'on' : 'off') + 'line';
+    console.log(internet);
+
+    if (internet == "offline") {
+        const innertextexample = 
+        document.querySelector("body");
+        innertextexample.innerHTML  = 
+        "Error";
+        loadScript('assets/js/main.js', function() {      
+        });
+    }
+
+
+
+    //try end
+}
+catch(e)
+{
+    console.log('have some error');
+}
+
+
+
+
+
+
+
+
